@@ -14,12 +14,12 @@
     "@tailwindcss/vite": "catalog:",
     "class-variance-authority": "catalog:",
     "clsx": "catalog:",
-    "eventsource-parser": "4.0.0",
+    "eventsource-parser": "catalog:",
     "lucide-react": "catalog:",
     "radix-ui": "catalog:",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "remark-gfm": "4.0.1",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "remark-gfm": "catalog:",
     "tailwind-merge": "catalog:",
     "tailwindcss": "catalog:",
     "tw-animate-css": "catalog:",
@@ -27,11 +27,11 @@
     "zustand": "catalog:"
   },
   "devDependencies": {
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
-    "@vitejs/plugin-react": "4.7.0",
-    "babel-plugin-react-compiler": "1.0.0",
-    "typescript": "7.0.2",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "babel-plugin-react-compiler": "catalog:",
+    "typescript": "catalog:",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   }

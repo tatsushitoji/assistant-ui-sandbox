@@ -10,14 +10,14 @@
     "test": "vp test"
   },
   "dependencies": {
-    "hono": "4.13.2"
+    "hono": "catalog:"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.52.1",
-    "@cloudflare/workers-types": "5.20260818.1",
-    "typescript": "7.0.2",
+    "@cloudflare/vite-plugin": "catalog:",
+    "@cloudflare/workers-types": "catalog:",
+    "typescript": "catalog:",
     "vite": "catalog:",
     "vite-plus": "catalog:",
-    "wrangler": "4.123.0"
+    "wrangler": "catalog:"
   }
 }
