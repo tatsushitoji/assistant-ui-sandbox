@@ -31,6 +31,10 @@ dist-ssr
 
 # AI agent worktrees
 .claude/worktrees/
+
+# Cloudflare Workers
+.wrangler/
+.dev.vars
 !.vscode/
 !.vscode/settings.json
 !.vscode/extensions.json
