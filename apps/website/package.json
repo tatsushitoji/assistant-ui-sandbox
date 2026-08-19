@@ -8,7 +8,29 @@
     "build": "tsc && vp build",
     "preview": "vp preview"
   },
+  "dependencies": {
+    "@assistant-ui/react": "catalog:",
+    "@assistant-ui/react-markdown": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "class-variance-authority": "catalog:",
+    "clsx": "catalog:",
+    "eventsource-parser": "4.0.0",
+    "lucide-react": "catalog:",
+    "radix-ui": "catalog:",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remark-gfm": "4.0.1",
+    "tailwind-merge": "catalog:",
+    "tailwindcss": "catalog:",
+    "tw-animate-css": "catalog:",
+    "tw-shimmer": "catalog:",
+    "zustand": "catalog:"
+  },
   "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "4.7.0",
+    "babel-plugin-react-compiler": "1.0.0",
     "typescript": "7.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:"

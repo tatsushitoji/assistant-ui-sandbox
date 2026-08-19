@@ -35,6 +35,9 @@ dist-ssr
 # Cloudflare Workers
 .wrangler/
 .dev.vars
+
+# pnpm local store (created by pnpm dlx)
+.pnpm-store/
 !.vscode/
 !.vscode/settings.json
 !.vscode/extensions.json

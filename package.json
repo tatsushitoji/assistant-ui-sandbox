@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "ready": "vp check && vp run -r test && vp run -r build",
-    "dev": "vp run website#dev",
+    "test": "vp run -r test",
+    "dev": "vp run -r --parallel dev",
     "prepare": "vp config"
   },
   "devDependencies": {
