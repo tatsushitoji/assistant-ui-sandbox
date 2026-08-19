@@ -1,22 +1,22 @@
-# vite-plus-starter
+# utils
 
-A starter for creating a Vite Plus project.
+モノレポ内の共通ユーティリティパッケージ。現在はアプリからは利用されておらず、サンプルの `fn` 関数とそのテストのみがある。
 
-## Development
+## 開発
 
-- Install dependencies:
+- 依存関係をインストールする
 
 ```bash
 vp install
 ```
 
-- Run the unit tests:
+- ユニットテストを実行する
 
 ```bash
 vp test
 ```
 
-- Build the library:
+- ライブラリをビルドする
 
 ```bash
 vp pack

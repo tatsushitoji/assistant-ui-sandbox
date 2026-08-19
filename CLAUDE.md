@@ -18,3 +18,12 @@ Docs are local at `node_modules/vite-plus/docs` or online at https://viteplus.de
 - [ ] If setup, runtime, or package-manager behavior looks wrong, run `vp env doctor` and include its output when asking for help.
 
 <!--VITE PLUS END-->
+
+## Project Commands
+
+- `vp run dev`: `apps/server`（`:8787`）と`apps/website`（`:5173`）を並行起動する。`/api`へのリクエストは`apps/website`のVite開発サーバーのプロキシから`apps/server`へ転送される
+- 個別に起動する場合: `vp -C apps/server dev` / `vp -C apps/website dev`
+- `vp run test`: 全ワークスペースのテストを実行する
+- `vp run ready`: チェック・テスト・ビルドを一括実行する
+- 依存バージョンは完全固定する（詳細は @.claude/rules/dependency-pinning.md）
+- 構成・通信フローは @docs/architecture.md、設計判断の経緯は @docs/adr/ を参照
